@@ -1,0 +1,24 @@
+{
+  "words": [
+    { "term": "raise", "definition": "들어올리다" },
+    { "term": "whereas", "definition": "반면에" },
+    { "term": "draw", "definition": "그리다" },
+    { "term": "coziness", "definition": "아늑함" },
+    { "term": "confirm", "definition": "확인해주다" },
+    { "term": "sustain", "definition": "지속시키다" },
+    { "term": "bring", "definition": "가져오다" },
+    { "term": "exercise", "definition": "운동" },
+    { "term": "commit", "definition": "저지르다" },
+    { "term": "serve", "definition": "제공하다" },
+    { "term": "urge", "definition": "충고하다" },
+    { "term": "available", "definition": "이용할 수 있는" },
+    { "term": "suggest", "definition": "제안하다" },
+    { "term": "strike", "definition": "치다" },
+    { "term": "lead", "definition": "안내하다" },
+    { "term": "difinitely", "definition": "분명히" },
+    { "term": "since", "definition": "...부터" },
+    { "term": "convince", "definition": "확신시키다" },
+    { "term": "effect", "definition": "영향" },
+    { "term": "claim", "definition": "주장하다" }
+  ]
+}
