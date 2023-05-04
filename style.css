@@ -1,0 +1,106 @@
+/* Global */
+:root {
+  /* Color */
+  --color-primary: #bee3db;
+  --color-accent: #89b0ae;
+  --color-white: #faf9f9;
+  --color-black: #555b6e;
+
+  /* Font size */
+  --size-medium: 1.5rem;
+  --size-regular: 1.2rem;
+
+  /* Font weight */
+  --weight-medium: 500;
+  --weight-regular: 400;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  background-color: var(--color-primary);
+}
+
+.header__logo {
+  font-size: var(--size-medium);
+  font-weight: var(--weight-medium);
+}
+
+.fa-square-check {
+  margin-right: 0.25em;
+  color: var(--color-accent);
+}
+
+.header__scroll {
+  text-transform: uppercase;
+  padding: 0.5em;
+  background-color: var(--color-accent);
+  border-radius: 0.5rem;
+  font-size: var(--size-regular);
+  font-weight: var(--weight-medium);
+  color: var(--color-white);
+}
+
+.header__scroll:hover {
+  opacity: 0.8;
+}
+
+/* Words */
+.words {
+  padding: 2em;
+  padding-top: 5em;
+}
+
+.word {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin-top: 1em;
+  background-color: var(--color-white);
+  font-size: var(--size-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+}
+
+.word__checkbox {
+  vertical-align: middle;
+  width: var(--size-regular);
+  height: var(--size-regular);
+  margin-right: 1em;
+  accent-color: var(--color-accent);
+}
