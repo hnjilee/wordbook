@@ -65,7 +65,7 @@ body {
   color: var(--color-accent);
 }
 
-.header__scroll {
+.header__btn {
   text-transform: uppercase;
   padding: 0.5em;
   background-color: var(--color-accent);
@@ -75,8 +75,12 @@ body {
   color: var(--color-white);
 }
 
-.header__scroll:hover {
+.header__btn:hover {
   opacity: 0.8;
+}
+
+.header__btn--hidden {
+  display: none;
 }
 
 /* Words */
